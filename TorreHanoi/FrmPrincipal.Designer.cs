@@ -38,12 +38,12 @@
             this.ItemMenuQuantidade6 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemMostrarSolucao = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemReiniciar = new System.Windows.Forms.ToolStripMenuItem();
+            this.desenvolvidoPorGabrielVicenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusMovimento = new System.Windows.Forms.StatusStrip();
             this.movimentoCounterLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.movimentoCounter = new System.Windows.Forms.ToolStripStatusLabel();
             this.possivelDeResolver = new System.Windows.Forms.ToolStripStatusLabel();
             this.rTxtDicas = new System.Windows.Forms.RichTextBox();
-            this.desenvolvidoPorGabrielVicenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOpcoesJogo.SuspendLayout();
             this.statusMovimento.SuspendLayout();
             this.SuspendLayout();
@@ -122,6 +122,13 @@
             this.menuItemReiniciar.Text = "Reiniciar";
             this.menuItemReiniciar.Click += new System.EventHandler(this.ItemMenuReiniciar_Click);
             // 
+            // desenvolvidoPorGabrielVicenteToolStripMenuItem
+            // 
+            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Name = "desenvolvidoPorGabrielVicenteToolStripMenuItem";
+            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Size = new System.Drawing.Size(270, 20);
+            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Text = "Desenvolvido por <gvms23> e <recheter220> ;)";
+            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Click += new System.EventHandler(this.desenvolvidoPorGabrielVicenteToolStripMenuItem_Click);
+            // 
             // statusMovimento
             // 
             this.statusMovimento.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -159,13 +166,6 @@
             this.rTxtDicas.TabIndex = 9;
             this.rTxtDicas.Text = "";
             this.rTxtDicas.Visible = false;
-            // 
-            // desenvolvidoPorGabrielVicenteToolStripMenuItem
-            // 
-            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Name = "desenvolvidoPorGabrielVicenteToolStripMenuItem";
-            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Size = new System.Drawing.Size(203, 20);
-            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Text = "Desenvolvido por Gabriel Vicente ;)";
-            this.desenvolvidoPorGabrielVicenteToolStripMenuItem.Click += new System.EventHandler(this.desenvolvidoPorGabrielVicenteToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
